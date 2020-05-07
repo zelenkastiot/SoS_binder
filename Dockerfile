@@ -28,7 +28,7 @@ RUN apt-get update && \
     apt-get autoremove && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN julia -e 'import Pkg; Pkg.add("FFTW"); Pkg.add("GZip"); Pkg.add("PyPlot"); Pkg.precompile();'
+RUN julia -e 'import Pkg; Pkg.add("GZip"); Pkg.add("PyPlot"); Pkg.precompile();'
 
 RUN cd $HOME/work;\
     pip install --upgrade pip; \

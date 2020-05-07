@@ -53,10 +53,10 @@ RUN cd $HOME/work;\
                 ipywidgets \
                 nbconvert; \
     python -m sos_notebook.install;\
-    git clone --single-branch -b master https://github.com/zelenkastiot/PhaseUnwrapping.git; \
-    cd PhaseUnwrapping;\
-    chmod -R 777 $HOME/work/PhaseUnwrapping
+    git clone --single-branch -b master https://github.com/zelenkastiot/SoS_binder.git; \
+    cd SoS_binder;\
+    chmod -R 777 $HOME/work/SoS_binder
     
-WORKDIR $HOME/work/PhaseUnwrapping
+WORKDIR $HOME/work/SoS_binder
 
 USER $NB_UID

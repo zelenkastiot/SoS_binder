@@ -1,4 +1,4 @@
-# Script of Scripts (SoS) Dockerfile
+# Script of Scripts (SoS) environment 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zelenkastiot/SoS_binder_julia_python3/master?filepath=Notebook_example.ipynb)
 

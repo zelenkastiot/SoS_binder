@@ -144,10 +144,10 @@ RUN cd $HOME/work;\
                 nibabel \
                 nbconvert; \
     python -m sos_notebook.install;\
-    git clone --single-branch -b master https://github.com/zelenkastiot/SoS_binder.git; \
-    cd SoS_binder; \
-    chmod -R 777 $HOME/work/SoS_binder
+    git clone --single-branch -b master https://github.com/zelenkastiot/sos-binder-julia-py3.git; \
+    cd sos-binder-julia-py3; \
+    chmod -R 777 $HOME/work/sos-binder-julia-py3
     
-WORKDIR $HOME/work/SoS_binder
+WORKDIR $HOME/work/sos-binder-julia-py3
 
 USER $NB_UID
